@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  vault:
+    image: hashicorp/vault:latest
+    hostname: vault-1
+    environment:
+      VAULT_DEV_ROOT_TOKEN_ID: SKkFwiwsA0Nm8Xpp70ykhVMH
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 1
