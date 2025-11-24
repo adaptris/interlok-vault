@@ -7,7 +7,7 @@ plugins {
   id 'project-report'
   // Manage optional dependencies in maven pom.
   id 'nebula.optional-base' version '7.0.0'
-  id 'com.github.spotbugs' version '6.4.4'
+  id 'com.github.spotbugs' version '6.4.5'
   id 'org.owasp.dependencycheck' version '9.0.10'
   id "io.freefair.lombok" version "8.14.2"
 }
